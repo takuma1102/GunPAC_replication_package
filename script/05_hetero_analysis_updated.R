@@ -10,7 +10,7 @@ source(here(
   "PNAS_script", "01_packages.R"))
 source(here(
   # "gunPAC",
-  "PNAS_R", "functions_pre_analysis.R"))
+  "PNAS_R", "functions_pre_analysis_updated.R"))
 
 # source(here(
 #   # "gunPAC",
@@ -19,10 +19,10 @@ source(here(
 
 source(here(
   # "gunPAC",
-  "PNAS_script", "03_descriptive_stats.R"))
+  "PNAS_script", "03_descriptive_stats_updated.R"))
 source(here(
   # "gunPAC",
-  "PNAS_R", "functions_analysis.R"))
+  "PNAS_R", "functions_analysis_updated.R"))
 source(here(
   # "gunPAC",
   "PNAS_script", "04_baseline_TWFE.R"))
@@ -974,5 +974,6 @@ pro_all_mplot <- ggplot(pro_all_df_mplot, aes(x = Time, y = Estimate,
 # scale_y_continuous(limits = c(-2.05, 2))
 
 pro_all_mplot
+
 
 
