@@ -10,17 +10,17 @@ source(here(
   "PNAS_script", "01_packages.R"))
 source(here(
   # "gunPAC",
-  "PNAS_R", "functions_pre_analysis.R"))
+  "PNAS_R", "functions_pre_analysis_updated.R"))
 # source(here(
 #   # "gunPAC",
 #   "PNAS_script", "02_data_wrangling.R")) # can skip this
 # skip_data_wrangling(TRUE) # can skip this as well later
 # source(here(
 #   # "gunPAC",
-#   "PNAS_script", "03_descriptive_stats.R"))
+#   "PNAS_script", "03_descriptive_stats_updated.R"))
 source(here(
   # "gunPAC",
-  "PNAS_R", "functions_analysis.R"))
+  "PNAS_R", "functions_analysis_updated.R"))
 
 
 # 1 Baseline TWFE  ----------------------------------------------------------------
@@ -2459,5 +2459,6 @@ gt_table(anti_ps_month_list,coef_map_single,  c("nobs"),
          gof_add_psshooting, title="Propensity Score Matching Results",
          "SS baseline Dataset; Gun Control",
          source_note = ps_sourcenote) 
+
 
 
