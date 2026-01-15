@@ -1,4 +1,4 @@
-# Replication Package for Gun PAC paper by Baldwin, Iwasaki, and Donohue (2025)
+# Replication Package for Gun PAC paper by Baldwin, Iwasaki, and Donohue (2026)
 Complete replication package of the article
 
 - script
