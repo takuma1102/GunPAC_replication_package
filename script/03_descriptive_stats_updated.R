@@ -10,7 +10,7 @@ source(here(
   "PNAS_script", "01_packages.R"))
 source(here(
   # "gunPAC",
-  "PNAS_R", "functions_pre_analysis.R"))
+  "PNAS_R", "functions_pre_analysis_updated.R"))
 # source(here(
 # # "gunPAC",
 # "PNAS_script", "02_data_wrangling.R")) # can skip this
@@ -546,5 +546,6 @@ total_donations_scatter_abs <- contribution_scatter_by_margin_whole(data_s_2000,
 #        width = 11, height = 9,
 #        dpi = 1500,
 #        bg = "white",   type = "cairo")
+
 
 
