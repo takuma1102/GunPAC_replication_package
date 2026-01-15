@@ -1365,20 +1365,14 @@ DCDH_all <- imap_dfr(DCDH_multiple, ~ {
 })
 
 pre_palette <- c(
-  # "3_months"   = "#FC9272",
   "3_months"   = "#DE2D26",
-  
   "4_months" = "#FB6A4A",
   "6_months"   = "#EF3B2C"
-  # TWFE       = "#FD8D3C",
-  # DCDH       = "#F16913"
-)
+ )
 post_palette <- c(
   "3_months"  = "#66C2A5",
-  # SunAbraham = "#5AB4AC",
   "4_months"   = "#4EB3D3",
-  # TWFE       = "#3182BD",
-  "6_months"       = "#08519C"
+  "6_months"      = "#08519C"
 )
 
 # integrate color and names
@@ -2063,11 +2057,7 @@ three_df_mplot <- bind_rows(df_mplot_imp,
     "DCDH_Pre" = "#DE2D26",
     "Imputation_Post"   = "#66C2A5",
     "Imputation_Pre"    = "#FC9272",
-    # "TWFE_Post"  = "#4EB3D3",
-    # "TWFE_Pre"   = "#FB6A4A",
-    "PanelMatch_Post"   = "#08519C"
-    # "PanelMatch_Pre"    = "#EF3B2C",
-    
+    "PanelMatch_Post"   = "#08519C" 
   )
   
   palette_vals_all <- c(
@@ -2075,9 +2065,6 @@ three_df_mplot <- bind_rows(df_mplot_imp,
     "DCDH_Post" = "#3182BD",
     "Imputation_Pre"    = "#FC9272",
     "Imputation_Post"   = "#66C2A5",
-    # "TWFE_Post"  = "#4EB3D3",
-    # "TWFE_Pre"   = "#FB6A4A",
-    # "PanelMatch_Pre"    = "#EF3B2C"
     "PanelMatch_Pre"    = "#EF3B2C",
     "PanelMatch_Post"   = "#08519C"
   )
@@ -2085,14 +2072,8 @@ three_df_mplot <- bind_rows(df_mplot_imp,
   
   
   palette_vals_three <- c(
-    # "DCDH_Post" = "#3182BD",
-    # "DCDH_Pre" = "#DE2D26",
     "Imputation_Post"   = "#66C2A5",
-    # "Imputation_Pre"    = "#FC9272",
-    # "Imputation_Post"   = "#3182BD",
     "Imputation_Pre"    = "#DE2D26",
-    # "TWFE_Post"  = "#4EB3D3",
-    # "TWFE_Pre"   = "#FB6A4A",
     "PanelMatch_Post"   = "#08519C",
     "PanelMatch_Pre"    = "#FB6A4A"
   )
@@ -2796,4 +2777,5 @@ estimate_local_SSimpact <- function(df, outcomes) {
   
   map_dfr(grid_margin, function(margin) map_dfr(outcomes, ~estimate_one(margin, .x)))
 }
+
 
