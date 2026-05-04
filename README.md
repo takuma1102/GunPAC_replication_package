@@ -14,4 +14,4 @@ Complete replication package of the article
   - 8 raw (i.e., non-fully-processed) datasets included
   - also containing geo-data for spill-over effect analyses
 
-For any technical questions on this package, please contact me (iwasakit_at_stanford.edu)
+For any technical questions on this package, please contact me (iwasakit_at_stanford.edu). For more information about my work, please visit my website: https://takuma1102.github.io/.
